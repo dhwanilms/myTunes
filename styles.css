@@ -1,0 +1,143 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* Nav Bar */
+.navbar {
+  position: fixed;
+  z-index: 1;
+}
+
+/* Overview */
+.div1 {
+  background: url(./guitar1.jpg) no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 12%;
+}
+.div1 h1 {
+  font-size: 4rem;
+}
+.div1 h1,
+.div1 h2 {
+  padding: 2%;
+  font-weight: bold;
+}
+.div1 p {
+  font-size: 1.3rem;
+}
+
+/* Music */
+.div2 {
+  color: white;
+  background: #252529;
+  text-align: center;
+}
+.div2 h1,
+.div2 h2 {
+  padding: 1.5%;
+}
+.available {
+  font-size: 1rem;
+  padding: 2%;
+}
+.properties {
+  padding: 1% 9%;
+  font-size: 1.5rem;
+}
+
+.trial {
+  border: 1px solid black;
+  padding: 1%;
+  background: red;
+  color: white;
+}
+
+/* Video */
+
+.div3 {
+  padding: 2%;
+  text-align: center;
+  color: #333;
+  background: #f4f4f4;
+  font-weight: bold;
+}
+.div3 h2 {
+  padding: 2%;
+}
+.div3 p {
+  padding: 1% 3%;
+  font-size: 1.3rem;
+}
+.read {
+  padding: 1.4%;
+}
+
+/* Info */
+
+#Info {
+  background: url(./star.jpg) no-repeat center/cover;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+.div4 {
+  padding: 8% 5%;
+  font-weight: bold;
+}
+.div4 h2 {
+  padding: 2%;
+  font-size: 2.5rem;
+}
+.div4 p {
+  padding: 1% 4%;
+  font-size: 1.4rem;
+}
+
+/* Gift Cards */
+
+#Gift_Card {
+  background: #f4f4f4;
+}
+.card {
+  width: 95%;
+  height: auto;
+  background: #f4f4f4;
+  border: none;
+}
+.container {
+  padding: 2%;
+}
+.div5 {
+  text-align: left;
+}
+.container h2 {
+  padding: 1% 1% 1% 0;
+}
+.gift {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+#footer {
+  padding: 0;
+  background: #333;
+  color: white;
+}
+.footer_div {
+  padding: 4%;
+  box-sizing: border-box;
+  position: relative;
+}
+li,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border-color: #f4f4f4;
+}
+h5 {
+  text-align: left;
+}
